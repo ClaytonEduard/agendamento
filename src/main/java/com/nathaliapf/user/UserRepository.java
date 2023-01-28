@@ -1,5 +1,7 @@
 package com.nathaliapf.user;
 
-public class UserRepository extends CrudRepository<User, Integer>{
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<User, Long>{
     
 }
