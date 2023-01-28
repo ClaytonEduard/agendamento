@@ -1,4 +1,4 @@
-package com.nathaliapf.agendamento;
+package com.nathaliapf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
