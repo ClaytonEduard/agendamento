@@ -1,4 +1,4 @@
-package com.nathaliapf.schedule;
+package com.nathaliapf.scheduleLog;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -9,8 +9,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ScheduleAgenda {
-    private static final Logger log = LoggerFactory.getLogger(ScheduleAgenda.class);
+public class ScheduleLog {
+    private static final Logger log = LoggerFactory.getLogger(ScheduleLog.class);
 
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
