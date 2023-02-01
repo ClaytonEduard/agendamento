@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.bodyScheduling{
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color:rgba(211, 211, 211, 0.495);
+}
+
+.bodyScheduling>section{
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.alinharCentroLogin{
+  margin: auto;
+  width: 400px;
+}
+
