@@ -16,6 +16,6 @@ public class ScheduleLog {
 
 	@Scheduled(fixedRate = 5000)
 	public void reportCurrentTime() {
-		log.info("The time is now {}", dateFormat.format(new Date()));
+		log.info("Agora são {}", dateFormat.format(new Date()));
 	}
 }

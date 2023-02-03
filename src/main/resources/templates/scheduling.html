@@ -18,22 +18,25 @@
     <section>
         <form class="alinharCentro" action="">
             <div class="mb-3">
-                <label for="codigo" class="form-label">ID</label>
-                <input type="text" class="form-control" id="codigo" placeholder="codigo" disabled>
-            </div>
-            <div class="mb-3">
-                <label for="dataInicial" class="form-label">Data Inicial</label>
-                <input type="datetime-local" class="form-control" id="dataInicial">
-            </div>
-            <div class="mb-3">
-                <label for="dataFinal" class="form-label">Data Final</label>
-                <input type="datetime-local" class="form-control" id="dataFinal">
-            </div>
-            <div class="mb-3">
-                <label for="obs" class="form-label">Descrição do Serviço</label>
-                <textarea class="form-control" id="obs" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <fieldset>
+                    <legend>Cadastrar Horario</legend>
+                    <label for="codigo" class="form-label">ID</label>
+                    <input type="text" class="form-control" id="codigo" placeholder="codigo" disabled>
+                                </div>
+                                <div class="mb-3">
+                    <label for="dataInicial" class="form-label">Data Inicial</label>
+                    <input type="datetime-local" class="form-control" id="dataInicial">
+                                </div>
+                                <div class="mb-3">
+                    <label for="dataFinal" class="form-label">Data Final</label>
+                    <input type="datetime-local" class="form-control" id="dataFinal">
+                                </div>
+                                <div class="mb-3">
+                    <label for="obs" class="form-label">Descrição do Serviço</label>
+                    <textarea class="form-control" id="obs" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </fieldset>
         </form>
     </section>
     <footer>Rodapé</footer>

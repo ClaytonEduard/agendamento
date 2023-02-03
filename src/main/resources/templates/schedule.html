@@ -23,11 +23,16 @@
 
 <body>
 
-    <div class="container theme-showcase">
+    <div class="container theme-showcase" onclick="clicar();">
         <h1>Calendar</h1>
         <div id="holder" class="row"></div>
     </div>
 
+    <script>
+        function clicar() {
+          alert('Cliou');
+        }
+    </script>
 
     <script type="text/tmpl" id="tmpl">
         {{ 
