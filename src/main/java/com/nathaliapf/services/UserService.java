@@ -1,8 +1,11 @@
-package com.nathaliapf.user;
+package com.nathaliapf.services;
 
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
+
+import com.nathaliapf.model.User;
+import com.nathaliapf.repository.UserRepository;
 
 @Service
 public class UserService {

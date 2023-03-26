@@ -1,8 +1,10 @@
-package com.nathaliapf.user;
+package com.nathaliapf.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import com.nathaliapf.services.UserService;
 
 @Controller
 public class UserController{
@@ -18,6 +20,11 @@ public class UserController{
     public String authentication() {
         this.service.getUserByNickName();
         return "true";
+    }
+
+    @PostMapping("/cad")
+    public void cadastar(){
+        this.service.createOrUpdate(null);
     }
 
 }

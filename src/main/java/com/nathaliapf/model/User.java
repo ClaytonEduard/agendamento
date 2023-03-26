@@ -1,4 +1,4 @@
-package com.nathaliapf.user;
+package com.nathaliapf.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
